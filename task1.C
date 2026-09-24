@@ -8,6 +8,12 @@ int main()
     int score;
     printf("Enter the NFL score (Enter 1 to stop): ");
     scanf("%d", &score);
+    while (score < 0)
+        {
+            printf("Invalid score. Please enter a non-negative score.\n");
+            scanf("%d", &score);
+    }
+    
     while (score != 1)
     {
 
@@ -38,6 +44,11 @@ int main()
             }
             printf("Enter the NFL score (Enter 1 to stop): ");
             scanf("%d", &score);
+            while (score < 0)
+        {
+            printf("Invalid score. Please enter a non-negative score.\n");
+            scanf("%d", &score);
+        }
     }
     return 0;
 }
