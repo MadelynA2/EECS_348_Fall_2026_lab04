@@ -10,10 +10,20 @@ int main()
         char og_scale;
         printf("Enter temperature scale of input (Fahrenheit, Celsius, or Kelvin) enter F, C, or K: ");
         scanf(" %c",&og_scale);
+        while (og_scale!='f' && og_scale!='F' && og_scale!='C' && og_scale!='c' && og_scale!='K' && og_scale!='k'){
+            printf("Enter temperature scale of input (Fahrenheit, Celsius, or Kelvin) enter F, C, or K: ");
+            scanf(" %c",&og_scale);
+        }
+
 
         char new_scale; 
         printf("Enter temperature scale you want value converted to (Fahrenheit, Celsius, or Kelvin) enter F, C, or K: ");
         scanf(" %c",&new_scale);
+        while (new_scale!='f' && new_scale!='F' && new_scale!='C' && new_scale!='c' && new_scale!='K' && new_scale!='k'){
+            printf("Enter temperature scale you want value converted to (Fahrenheit, Celsius, or Kelvin) enter F, C, or K: ");
+            scanf(" %c",&new_scale);
+        }
+
 
 
         int C_val;
