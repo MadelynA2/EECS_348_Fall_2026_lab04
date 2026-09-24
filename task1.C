@@ -1,3 +1,17 @@
+/*
+ * Name: Madelyn Armitage
+ * KUID: 3190813
+ * Lab Session: Thursday at 11
+ * Lab Assignment: Lab 3 - Task 1
+ * Program Description:
+ *     This program asks the user to enter an NFL football score and
+ *     determines all possible combinations of touchdowns with two-point
+ *     conversions, touchdowns with extra points, touchdowns without an
+ *     extra point, field goals, and safeties that could produce the
+ *     entered score. The program continues accepting scores until the
+ *     user enters 1 to stop.
+ */
+
 #include <stdio.h>
 
 int main()

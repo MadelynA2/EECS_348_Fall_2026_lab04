@@ -1,3 +1,17 @@
+/*
+ * Name: Madelyn Armitage
+ * KUID: 3190813
+ * Lab Session: Thursday 11 am
+ * Lab Assignment: Lab 3 - Task 2
+ * Program Description:
+ *     This program allows the user to enter a temperature in Fahrenheit,
+ *     Celsius, or Kelvin and convert it to another temperature scale.
+ *     The program displays the converted temperature and categorizes it
+ *     into a predefined temperature range to provide an appropriate
+ *     weather advisory.
+ */
+
+
 #include <stdio.h>
 
 int main()
